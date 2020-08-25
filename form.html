@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" href="/home/oleg/Стільниця/Html/css/form.css" type="text/css">
+</head>
+	<header>
+		<h1>Form</h1>
+	</header>
+<body>
+	<br><br>
+	<form align="center" action="Mainpage.html" method="get" accept-charset="utf-8" target="_blank">
+		<label >Введіть ваше прізвище<input autofocus type="text" name="prizvushche" required autocomplete="off"></label><br><br>
+		<label>Введіть ваше імя...<input type="text" name="name" required list="azaz"></label><br><br>
+		<datalist id="azaz">
+			<option>oleg</option>
+			<option>vira</option>
+		</datalist>
+		<label>Введіть ваш пароль<input type="password" name="ps" value="" maxlength="8"></label><br><br>
+		<label accesskey="s">Введіть ваше емейл<input type="email" name="ty" value=""></label><br><br>
+		<label>Чоловік:<input type="radio" name="1r" value="1" checked></label>
+		<label>Жінка:<input type="radio" name="1r" value="2"></label><br><br>
+		<textarea accesskey="w" placeholder="Розкажіть щось про себе" name="typetext"></textarea><br><br>
+		<label>Введіть ваш вік: <input type="number" name="nu" value=""></label>
+		<label>Введіть ваш телефен: <input type="tel" name="te" value=""></label><br><br>
+		<label><input  type="submit" name="su" value="submit"></label>
+		<label><input  type="reset" name="su" value="reset"></label>
+	</form>
+</body>
+</html>
