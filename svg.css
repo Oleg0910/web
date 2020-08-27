@@ -1,0 +1,28 @@
+@import "mainpage.css" screen;
+svg{
+	width: 100%;
+	height: 1000px;
+	background-color: #778899;
+}
+body{
+	background-color: white;
+}
+line{
+	stroke: blue;
+	stroke-width: 10px;
+	stroke-linecap: round;
+}
+polyline{
+	stroke-linejoin: milter;
+	stroke: blue;
+	stroke-width: 4;
+	fill:none;
+}
+ellipse{
+	fill: blue;
+}
+polygon{
+	fill: blue;
+	stroke: black;
+	stroke-width: 10px;
+}
